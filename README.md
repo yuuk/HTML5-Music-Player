@@ -5,7 +5,7 @@ jQuery+HTML5音乐播放器，一直都想试着写一个音乐播放器，自�
 ![界面截图](https://raw.githubusercontent.com/yuuk/HTML5-Music-Player/master/musicPlayer/images/QQ截图20161220115525.png)
 
 # 主要功能
-暂停/播放歌曲、上一曲、下一曲、歌曲轮播、进度条、缓冲进度条、歌曲倒计时。
+暂停/播放歌曲、上一曲、下一曲、歌曲轮播、歌曲时间进度条、缓冲进度条、歌曲倒计时。
 
 # 用法
 ```javascript
