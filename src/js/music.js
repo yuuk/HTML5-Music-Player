@@ -105,7 +105,7 @@
             var cover = new Image();
             cover.onload = function() {
             	$(_this.elements.cover).attr('src', music.cover);
-            }
+            };
             cover.src = music.cover;
             //监听播放信息
             this.watchPlayInfo();
