@@ -15,7 +15,7 @@ jQuery+HTML5音乐播放器，一直都想试着写一个音乐播放器，自�
 ```
 ## 运行方法
 ````
-1、git clone https://github.com/jrainlau/markcook.git
+1、git clone https://github.com/yuuk/HTML5-Music-Player.git
 2、cd HTML5-Music-Player
 3、npm install
 4、gulp
