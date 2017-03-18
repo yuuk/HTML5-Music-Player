@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<title>HTML5音乐播放器</title>
-	<link rel="stylesheet" type="text/css" href="css/music.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/music.min.css">
 </head>
 <body>
 	<div class="player-main">
-		<div class="music-cover"><img src="images/default-cover.jpg" class="js-cover"></div>
-		<div class="music-play">
-			<div class="music-info">
-				<p class="music-author js-author">Yuuk</p>
-				<p class="music-operate">
-					<a href="javascript:;" class="prev js-prev"><i></i></a>
-					<a href="javascript:;" class="pause js-play"><i></i></a>
-					<a href="javascript:;" class="next js-next"><i></i></a>
-				</p>
+		<section class="music-panel">
+			<div class="music-cover"><img src="dist/images/default-cover.jpg" class="js-cover"></div>
+			<div class="music-play">
+				<div class="music-info">
+					<p class="music-author js-author">Yuuk</p>
+					<p class="music-operate">
+						<a href="javascript:;" class="prev js-prev"><i></i></a>
+						<a href="javascript:;" class="pause js-play"><i></i></a>
+						<a href="javascript:;" class="next js-next"><i></i></a>
+					</p>
+				</div>
+				<p class="music-name js-name">Music Player By Yuuk</p>
+				<div class="music-time">
+					<time class="time js-time">0:00</time>
+					<p class="progress js-progress"><i></i><span></span></p>
+				</div>
 			</div>
-			<p class="music-name js-name">Music Player By Yuuk</p>
-			<div class="music-time">
-				<time class="time js-time">0:00</time>
-				<p class="progress js-progress"><i></i><span></span></p>
-			</div>
-		</div>
+		</section>
+		<section class="music-list">
+			<h6>播放列表</h6>
+			<ul class="js-playlist">
+				<li class="loading">列表加载中...</li>
+			</ul>
+		</section>
 	</div>
-	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="js/music.js"></script>
+	<script type="text/javascript" src="dist/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="dist/js/music.min.js"></script>
 	<script type="text/javascript">
 		new musicPlayer({
-			url: 'js/music.json'
+			url: 'dist/data/music.json'
 		});
 	</script>
 </body>

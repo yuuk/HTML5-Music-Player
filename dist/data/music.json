@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Thinking Out Loud",
+        "author": "Ed Sheeran",
+        "cover": "http://img1.kuwo.cn/star/starheads/240/56/2/1664333476.jpg",
+        "url": "http://kj.430115.com/520/images/Thinking%20Out%20Loud.mp3",
+        "duration": "04:41"
+    },
+    {
+        "name": "天后",
+        "author": "陈势安",
+        "cover": "https://ss0.baidu.com/8_1ZdTmk2RIF8t7jm9iCKT-xh_/data2/pic/88959993/88959993.jpg",
+        "url": "https://ss2.baidu.com/y0s1hSulBw92lNKgpU_Z2jR7b2w6buu/data2/music/134371687/1232117093600128.mp3?xcode=178f80cdb18dd86cc9bf3d409e407d1c",
+        "duration": "04:26"
+    },
+    {
+    	"name": "生日快乐",
+    	"author": "江一燕",
+    	"cover": "http://p3.music.126.net/GM2WO6mnw2RbRgB46dLoOQ==/7910986161955511.jpg",
+    	"url": "http://kj.430115.com/birthday/images/birthday.mp3",
+        "duration": "01:36"
+    },
+    {
+        "name": "Sugar",
+        "author": "Maroon 5",
+        "cover": "http://www.sucaijiayuan.com/demo/20160621-4/playlist/covers/Maroon5.jpg",
+        "url": "http://www.sucaijiayuan.com/demo/20160621-4/playlist/Sugar.mp3",
+        "duration": "03:55"
+    }
+]
